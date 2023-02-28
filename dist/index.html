@@ -41,15 +41,12 @@
                 <!-- <h1>LOGO</h1> -->
                 <img class="d-none d-lg-block" src="img/logo.png" alt="Around" width="100" style="border-radius: 10%; height: 50px;">
                 
-                <!--<img class="d-lg-none" src="img/logo/logo-icon.png" alt="Around" width="58"> -->
+                <img class="d-lg-none" src="img/logo.png" alt="Around" width="58">
               </a>
 
               <div class="d-flex align-items-center order-lg-3 ms-lg-auto">
                 <a class="nav-link-style fs-sm text-nowrap text-white" href="about.html">
                   <b style="font-size: 20px;">À propos</b>
-                </a>
-                <a class="nav-link-style fs-sm text-nowrap text-white ms-grid-gutter d-lg-inline-block navbar-btn" href="contact.html">
-                  <b style="font-size: 20px;">Contact</b>
                 </a>
               </div>
 
@@ -63,7 +60,7 @@
           </header>
 
           <!--Video-->
-          <video src="videos/smile.mp4" type="video/mp4" muted class="vid" loop style="width: 100%; margin-top: -150px;">
+          <video src="videos/smile.mp4" type="video/mp4" muted class="vid" loop style="width: 100%; margin-top: -75px;">
             Votre navigateur ne prend pas en charge la balise vidéo.
           </video>
 
@@ -198,25 +195,30 @@
           <div style="background-color: #395723; height: 20px;"></div>
 
           <!-- petit soin feminin -->
-          <div 
-            class="container-fluid text-center" style="background-image: url(img/soins_feminins.jpeg); height: 600px; width: 100%; 
-            background-repeat:no-repeat; background-position: center center;">
-            <h3 style="padding-top: 35%;"><b style="color: #395723;">PETITS SOINS FÉMININ</b></h3>
+          <div class="container-fluid text-center" style="position: relative;">
+            <img src="img/femme.jpeg" style="width: 100%;">
+            <div 
+              class="text-block" style="position: absolute; bottom: 20px; background-color: #f8f9f9; 
+              color: white; padding-left: 30%; padding-right: 30%;">
+              <h3>
+                <b style="color: #395723;">PETITS SOINS FÉMININ</b>
+              </h3>
+            </div>
           </div>
-          <div class="container-fluid" style="background-color:#395723; padding-top: 10px;">
+          <div class="container-fluid" style="background-color:#395723;">
             <div class="row">
               
-              <div class="col-sm-4 text-center" style="margin: auto;">
+              <div class="col-sm-4 card card-body text-center pt-3" style="background-color:#395723;">
                 <h5><b class="text-white">DOULEURS DE RÈGLES</b></h5>
                 <h5><b class="text-white">120.- / SEANCE</b></h5>
               </div>
 
-              <div class="col-sm-4 text-center" style="margin: auto;">
+              <div class="col-sm-4 card card-body text-center pt-3" style="background-color:#395723;">
                 <h5><b class="text-white">PERTE / DÉMENGEAISON / SÈCHERESSE</b></h5>
                 <h5><b class="text-white">120.- / SEANCE</b></h5>
               </div>
 
-              <div class="col-sm-4 text-center" style="margin: auto;">
+              <div class="col-sm-4 card card-body text-center pt-3" style="background-color:#395723;">
                 <h5><b class="text-white">BEAUTÉ VAGINALE</b></h5>
                 <h5><b class="text-white">120.- / SEANCE</b></h5>
               </div>
@@ -225,26 +227,33 @@
           </div>
 
           <!--PETITS SOINS POUR LA PEAU-->
-          <div class="container-fluid text-center" style="background-image: url(img/soins_peau.jpeg); height: 700px; width: 100%; 
-            background-repeat:no-repeat; background-position: center center;">
-            <h3 style="padding-top: 45%;"><b style="color: #395723;">PETITS SOINS POUR LA PEAU</b></h3>
+          <div class="container-fluid text-center" style="position: relative;">
+            <img src="img/soins_peau.jpeg" style="width: 100%;">
+            <div 
+              class="text-block" style="position: absolute; bottom: 20px; background-color: #f8f9f9; 
+              color: white; padding-left: 30%; padding-right: 30%;">
+              <h3>
+                <b style="color: #395723;">PETITS SOINS POUR LA PEAU</b>
+              </h3>
+            </div>
+    
           </div>
-          <div class="container-fluid" style="background-color: #395723; padding-top: 10px;">
+          <div class="container-fluid" style="background-color: #395723;">
             <div class="row">
               
-              <div class="col-sm-4 text-center" style="margin: auto;">
+              <div class="col-sm-4 card card-body text-center pt-3" style="margin: auto; background-color:#395723;">
                 <h5><b class="text-white">ECZEMA</b></h5>
                 <h5><b class="text-white">90.- / SEANCE</b></h5>
                 <h5><b class="text-white">120.- / SEANCE</b></h5>
               </div>
 
-              <div class="col-sm-4 text-center">
+              <div class="col-sm-4 card card-body text-center pt-3" style="margin: auto; background-color:#395723;">
                 <h5><b class="text-white">PSORIASIS</b></h5>
                 <h5><b class="text-white">90.- / SEANCE</b></h5>
                 <h5><b class="text-white">120.- / SEANCE</b></h5>
               </div>
 
-              <div class="col-sm-4 text-center">
+              <div class="col-sm-4 card card-body text-center pt-3" style="margin: auto; background-color:#395723;">
                 <h5><b class="text-white">ACNÉ</b></h5>
                 <h5><b class="text-white">90.- / SEANCE</b></h5>
                 <h5><b class="text-white">120.- / SEANCE</b></h5>
@@ -256,6 +265,57 @@
           <div class=" text-center">
             <img src="img/salle.jpeg" style="width: 100%;">
           </div>
+
+          <!--Contact-->
+          <!-- Map + Directions-->
+          <section class="container py-5 py-md-6 py-lg-7">
+            <div class="row">
+                <div class="col-md-8 pt-lg-5">
+                    <div class="gallery" id="map">
+                        <a 
+                            class="gallery-item map-popup bg-position-center bg-no-repeat py-7 text-center border rounded-3" 
+                            href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2748.3014589858653!2d6.33232931581887!3d46.46253647912542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c4678c475eaa1%3A0xd4b5c25f11a91593!2sRte%20de%20la%20Vall%C3%A9e%209%2C%201180%20Rolle%2C%20Suisse!5e0!3m2!1sfr!2sus!4v1677275501526!5m2!1sfr!2sus" data-iframe="true" data-sub-html="&lt;h6 class=&quot;fs-sm text-light&quot;&gt;396 Lillian Blvd, Holbrook, NY 11741&lt;/h6&gt;" style="background-image: url(img/map.jpg);">
+                            <span class="gallery-caption">
+                                <i class="ai-maximize-2 fs-xl mt-n1 me-2"></i>
+                                Agrandir la carte
+                            </span>
+                            <div class="d-inline-block py-4 py-sm-7">
+                                <img src="img/pages/contacts/marker.png" alt="Map marker" width="48">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                  <h2 class="h4 pb-3 pt-5">Contact</h2>
+                  <div class="d-flex align-items-start mb-4">
+                    <i class="ai-mail h3 mt-n1 mb-0"></i>
+                    <div class="ps-3">
+                        <a 
+                          class="d-inline-block text-decoration-none mb-2" href="mailto:contact@petitsoinduventre.ch"
+                          style="color: #395723;">
+                            contact@petitsoinduventre.ch
+                        </a>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-start mb-4">
+                      <i class="ai-phone h3 mt-n1 mb-0"></i>
+                      <div class="ps-3">
+                          <a class="d-inline-block text-decoration-none mb-2" href="tel:+41218252523" style="color: #395723;">
+                              +41 21 825 25 23
+                          </a>
+                      </div>
+                  </div>
+                  <h2 class="h4">Heures d'ouverture</h2>
+                  <ul class="list-unstyled fs-sm">
+                    <li><span class="text-heading fs-base me-1">Lundi - Vendredi:</span>9h - 18h</li>
+                    <li><span class="text-heading fs-base me-1">Samedi:</span>10h - 17h</li>
+                    <li><span class="text-heading fs-base me-1">Dimanche:</span><span class="text-danger">Fermé</span></li>
+                  </ul>
+                </div>
+            </div>
+          </section>
+
         </main>
 
         <!-- Footer-->
@@ -286,7 +346,6 @@
                   <div class="col-6 col-sm-6">
                     <div class="widget">
                       <ul>
-                        <li><a class="widget-link" href="contact.html">Contact</a></li>
                         <li><a class="widget-link" href="about.html">À propos</a></li>
                       </ul>
                     </div>
